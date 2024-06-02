@@ -4,12 +4,12 @@ import sys
 #from colorama import Fore, Style
 # try:
 #     #banner creation
-#     if sys.platform == "linux" or sys.platform == "linux2":
-#         os.system("clear")
-#     elif sys.platform == "win32":
-#         os.system("cls")
-#     elif sys.platform == "darwin":
-#         os.system("clear")
+     if sys.platform == "linux" or sys.platform == "linux2":
+         os.system("clear")
+     elif sys.platform == "win32":
+         os.system("cls")
+     elif sys.platform == "darwin":
+         os.system("clear")
 #     print(Fore.BLUE + figlet_format("WELCOME MR.SANTO", font="banner"))
 #     print(Style.RESET_ALL)
 # except:
@@ -26,7 +26,7 @@ bold='\033[01m'
 
 #banner
 print(blue+"""
- '##:::::'##:'########:'##::::::::'######:::'#######::'##::::'##:'########:     
+'##:::::'##:'########:'##::::::::'######:::'#######::'##::::'##:'########:     
  ##:'##: ##: ##.....:: ##:::::::'##... ##:'##.... ##: ###::'###: ##.....::     
  ##: ##: ##: ##::::::: ##::::::: ##:::..:: ##:::: ##: ####'####: ##:::::::     
  ##: ##: ##: ######::: ##::::::: ##::::::: ##:::: ##: ## ### ##: ######:::     
